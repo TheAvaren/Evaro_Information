@@ -1,0 +1,48 @@
+IDEA's:
+Evaro Item Functionality List.
+Statistical Functioner:
+Health,Food eg.
+WorldItemEvent:
+Item Animation,Sword Swinging,Gun ammo use eg.	
+
+TODO :
+Rework Inventory System.
+Crafting items.
+Item drop placement/dropping.
+Continue PlayerInventoryManager.RequestEquipItem() / PIM:121
+Make EvaroEntityObjects inheritable (Minifurnace : EvaroEntityObject, LightSwitch : EvaroEntityObject etc).
+Create Layer for World Interactables for less intensive RayCasts.
+Make colliders for item as primitive as possible.
+Fix scale and rotation issue for all game objects.
+Create more EntityTypes (interactble types).
+
+External:
+#EIS
+Create Base-Item Item Database
+Serialize Base Items for Base-Item Database
+
+ 
+DONE:
+✔ Fix Bumpy-ness when walking/running down a slope.	
+✔ Merge PlayerGUIController < PlayerHUDManager.
+✔ Hinge script functionality basis.
+✔ Item GUI stackablity.
+✔ Unity 2017 dll seeking.
+✔ find item creation in-leak.
+✔ EvarenItemSystem exception management.
+✔ Sort out scripts folder/structure.
+
+14/02/2018:
+✔ Rework Hinge (almost done, just some more math and fix the door closing)
+
+GameObject Fixes:
+R:Bunker,
+S:Minifurnace,
+R:Chemical Station,
+RS:Skyscrapers,
+P:Cactus
+NSR:Rocks/Decals
+R:Ground_Pump
+R:Bread
+S:DuctTape
+S:Cursor
