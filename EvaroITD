@@ -5,23 +5,31 @@ Health,Food eg.
 WorldItemEvent:
 Item Animation,Sword Swinging,Gun ammo use eg.	
 
-TODO :
-Rework Inventory System.
+TODO (bottom-up priority):
+Gardening System...?
 Crafting items.
 Item drop placement/dropping.
-Continue PlayerInventoryManager.RequestEquipItem() / PIM:121
-Make EvaroEntityObjects inheritable (Minifurnace : EvaroEntityObject, LightSwitch : EvaroEntityObject etc).
-Create Layer for World Interactables for less intensive RayCasts.
-Make colliders for item as primitive as possible.
-Fix scale and rotation issue for all game objects.
-Create more EntityTypes (interactble types).
+Rework Inventory System.
+Input System.
+Console System.
+
 
 External:
 #EIS
 Create Base-Item Item Database
 Serialize Base Items for Base-Item Database
+Create package Player (from VolumeArea project)
 
- 
+MAYBE-DONE:
+Make EvaroEntityObjects inheritable (Minifurnace : EvaroEntityObject, LightSwitch : EvaroEntityObject etc).
+Make colliders for item as primitive as possible.
+Create Layer for World Interactables for less intensive RayCasts.
+Fix scale and rotation issue for all game objects.
+Fix water fog, currently need to assimilate PlayerController.MPlayer base object (inheritable);
+
+Good Enough:
+Holding items, fix positioning.
+
 DONE:
 ✔ Fix Bumpy-ness when walking/running down a slope.	
 ✔ Merge PlayerGUIController < PlayerHUDManager.
@@ -31,9 +39,14 @@ DONE:
 ✔ find item creation in-leak.
 ✔ EvarenItemSystem exception management.
 ✔ Sort out scripts folder/structure.
+✔ Create new EntityTypes "entity".
+✔ Fix water exit fog.
+✔ Removed Second Particle System for Minifurnace.
 
 14/02/2018:
 ✔ Rework Hinge (almost done, just some more math and fix the door closing)
+
+
 
 GameObject Fixes:
 R:Bunker,
@@ -46,3 +59,5 @@ R:Ground_Pump
 R:Bread
 S:DuctTape
 S:Cursor
+
+cd "/e/evarentechnologies/appdata/(Open)UnityBased/evaro"
