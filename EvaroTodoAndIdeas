@@ -8,11 +8,10 @@ Item Animation,Sword Swinging,Gun ammo use eg.
 TODO (bottom-up priority):
 Gardening System...?
 Crafting items.
-Item drop placement/dropping.
 Rework Inventory System.
+Console System.	
 Input System.
-Console System.
-
+Item drop placement/dropping.
 
 External:
 #EIS
@@ -48,7 +47,7 @@ DONE:
 
 
 
-GameObject Fixes:
+GameObject To Fix:
 R:Bunker,
 S:Minifurnace,
 R:Chemical Station,
@@ -59,5 +58,3 @@ R:Ground_Pump
 R:Bread
 S:DuctTape
 S:Cursor
-
-cd "/e/evarentechnologies/appdata/(Open)UnityBased/evaro"
